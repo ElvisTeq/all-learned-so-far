@@ -1,0 +1,17 @@
+#1
+Used `template litereals` in "Card.js"
+
+- To inject own className + className from {props.children}
+
+#2
+Pop Error window message in "ErrorModal.js"
+
+- Implemented in "AddUser.js"
+
+* Used "useState" to conditionally create error messages
+* Using Conditional {&&} to return JSX <ErrorModal> (to show window message or not)
+
+* Created a function that changes the condition that shows <ErrorModal> (to show window message or not)
+* Added "onClick={}" to the location we want to trigger this function
+
+* Noted => <div> outside another <div> will make changes outside its element => "ErrorModal.js"
